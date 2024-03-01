@@ -1,13 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar';
+import Hero from './components/Hero';
+import About from './components/About';
 
 function App() {
   return (
     <>
     <div className='App'>
-      <header className='App-header'>
-    <p>Hi!!,Welcome to Apurva's Portfolio!</p>
-    </header>
+      <NavBar/>
+      <br/>
+      <Hero/>
+      <br/>
+      <br/>
+      
+      <About/>
     </div>
     </>
   );
