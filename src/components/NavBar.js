@@ -4,18 +4,18 @@ const Header=()=>{
         <>
     <Navbar collapseOnSelect expand="lg" className="bg-body-transparent">
       <Container>
-        <Navbar.Brand className="text-white" href="#home">Portfolio</Navbar.Brand>
+        <Navbar.Brand className="text-white" href="/">Portfolio</Navbar.Brand>
         <Navbar.Toggle  aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse  id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link className="text-white" href="#about">About</Nav.Link>
-            <Nav.Link className="text-white"eventKey={2} href="#skills">
+            <Nav.Link to="#about" className="text-white" href="/about">About</Nav.Link>
+            <Nav.Link  className="text-white"eventKey={2} href="/skills">
               Skills
             </Nav.Link>
-            <Nav.Link className="text-white" eventKey={3} href="#project">
+            <Nav.Link className="text-white" eventKey={3} href="/projects">
               Projects
             </Nav.Link>
-            <Nav.Link className="text-white" eventKey={4} href="#about">
+            <Nav.Link className="text-white" eventKey={4} href="/contact">
              Contact
             </Nav.Link>
           </Nav>

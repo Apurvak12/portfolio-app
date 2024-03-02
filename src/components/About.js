@@ -12,19 +12,19 @@ const About=()=>{
             <img src={laptop} className="aboutImg" />
             <ul className="aboutItems">
               <li className="aboutItem">
-             <img src={cursor} height={52} width={52}/>
+             <img src={cursor} height={40} width={40} className="aimg"/>
              
               <div>
                 <h3 className="text-white">Frontend Developer</h3>
-                <p className="text-white">I m Frontend Developer</p>
+                <p className="text-white">I'm a new frontend developer who loves making websites look awesome and work smoothly.</p>
               </div>
                </li>
                <li className="aboutItem">
-             <img src={sericon} height={52} width={52}/>
+             <img src={sericon} height={40} width={40} className="aimg"/>
              
               <div className="itemText">
                 <h3 className="text-white">Backend Developer</h3>
-                <p className="text-white">I m Backend Developer</p>
+                <p className="text-white">I'm a new backend developer excited about building strong and reliable computer systems.</p>
               </div>
                </li>
             </ul>

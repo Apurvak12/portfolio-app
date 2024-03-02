@@ -14,6 +14,11 @@
     height: 50%;
     z-index:1;
 }
+.btn{
+  text-decoration: none;
+  padding: auto;
+  border-radius: 7px;
+}
 .container2{
   background-color: rgba(12, 12, 12, 0.6);
   border-radius: 15px;
@@ -53,3 +58,102 @@
     width: 35%;
 }
 
+.container3{
+  position: relative;
+  width: 100%;
+  display: flex;
+    background-color: rgb(123, 6, 130);
+    align-items: center;
+    margin-top: 110px;
+   justify-content: space-around;
+    padding: 30px ;
+    flex-direction: row;
+}
+.footerItem{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 20px;
+}
+.footerItems{
+display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.footerItems a{
+  text-decoration: none;
+color: bisque;
+}
+.skills{
+ margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+.tskills h3{
+  color: white;
+ text-align:center;
+ text-decoration: underline;
+
+ margin-top: 20px;
+ margin-bottom: 30px;
+  
+}
+.skillitems{
+  margin-top: 30px;
+  gap: 22px;
+  
+}
+.skillitem{
+  margin-top: 20px;
+  gap: 20px;
+
+}
+.html{
+  width: 90%;
+  background: rgb(236, 13, 108);
+}
+.css{
+  width: 55%;
+  background: rgb(236, 13, 108);
+}
+.js{
+  width: 60%;
+  background: rgb(236, 13, 108);
+}
+.java{
+  width:50%;
+  background: rgb(236, 13, 108);
+}
+.nodejs{
+  width: 60%;
+  background: rgb(236, 13, 108);
+}
+.mongodb{
+  width: 40%;
+  background: rgb(236, 13, 108);
+}
+.container5{
+  margin-top: 76px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.title{
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+}
+.card{
+  display: flex;
+  border-radius: 20px;
+/* background: linear-gradient(90deg, rgb(16, 9, 142) 0%, rgb(157, 87, 178) 0%, rgb(183, 39, 231) 100%); */
+ background: linear-gradient(180deg, #4c60b1 0%, #091e44 100%);
+ box-shadow: 0 16px 14px 0 #04152d;
+  padding: 18px 24px;
+  max-width: 345px;
+  margin-top: 30px;
+}
+.aimg{
+  margin-bottom: auto;
+}
