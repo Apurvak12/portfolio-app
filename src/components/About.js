@@ -29,7 +29,7 @@ const About=()=>{
                </li>
             </ul>
             </div>
-         </Container>
+         </Container> 
         </>
     );
 

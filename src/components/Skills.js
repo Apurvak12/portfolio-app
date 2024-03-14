@@ -1,88 +1,99 @@
-import {Container} from 'react-bootstrap';
+import {Container,Row,Col} from 'react-bootstrap';
 import html from '../images/html-5_5968267.png';
 import css from '../images/css-3_5968242.png';
 import javascript from '../images/js_5968292.png';
 import java from '../images/java_226777.png';
 import nodejs from '../images/node.png';
-import mangodb from '../images/mongodb.png';
+import mongodb from '../images/mongodb.png';
 const Skills=()=>{
     return(
         <>
-        <Container className='skills' id='aboutskills' >
-        
-            <div className='title'>
-                <h1 className='text-white'>Skills</h1>
+        <Container className='containers' id='skills'>
+        <h2 className='text-white'>Skills</h2>
+        <Row>
+            <Col md={6}>
+        <div className='ts'>
+        <h3 className='text-white heading1'>Technical Skills</h3>
+        <div className='technical-bar'>
+            <div className='bar'>
+                <div className='text-white info'>
+                <img src={html} height={18} weight={18}/> HTML</div>
+                <div className='progress-line html'>
+                    <span></span>
+                </div>
             </div>
-            <div className='divide' >
-            <div className='tskills'>
-                <h3>Technical skills</h3>
+            <div className='bar'>
+                <div className='text-white info'>
+                <img src={css} height={18} weight={18}/> CSS</div>  
+                <div className='progress-line css'>
+                    <span></span>
+                </div>
             </div>
-            <div className='skillitems'>
-                <div className='skillitem'>
-                    <div className='skill-info'>
-                        <p className='text-white'><img src={html} width={20} height={20} /> Html</p>
-                        
-                    </div>
-                    <div className="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                   <div className="progress-bar html">90%</div>
-                   </div>    
+            <div className='bar'>
+               <div className='text-white info'>
+                <img src={javascript} height={18} weight={18}/> Javascript</div> 
+                <div className='progress-line js'>
+                    <span></span>
                 </div>
-                <div className='skillitem'>
-                    <div className='skill-info'>
-                        <p className='text-white'><img src={css} width={20} height={20}/> Css</p>
-                        
-                    </div>
-                    <div className="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                   <div className="progress-bar css">55%</div>
-                   </div>   
-                    
+            </div>
+            <div className='bar'>
+                <div className='text-white info'>
+                <img src={java} height={18} weight={18}/> Java</div> 
+                <div className='progress-line java'>
+                    <span></span>
                 </div>
-
-                <div className='skillitem'>
-                    <div className='skill-info'>
-                        <p className='text-white'><img src={javascript} width={20} height={20}/> Javascript</p>
-                        
-                    </div>
-                     <div className="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                   <div className="progress-bar js">60%</div>
-                   </div>   
-                    
+            </div>
+            <div className='bar'>
+                <div className='text-white info'>
+                <img src={nodejs} height={18} weight={18}/> Nodejs</div> 
+                <div className='progress-line nodejs'>
+                    <span></span>
                 </div>
-
-                <div className='skillitem'>
-                    <div className='skill-info'>
-                        <p className='text-white'><img src={java} width={20} height={20}/> Java</p>
-                       
-                    </div>
-                   <div className="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                   <div className="progress-bar java">50%</div>
-                   </div>   
-                </div>
-                
-                 <div className='skillitem'>
-                    <div className='skill-info'>
-                        <p className='text-white'><img src={nodejs} width={20} height={20}/> NodeJs</p>
-                        
-                    </div>
-                     <div className="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                   <div className="progress-bar nodejs">60%</div>
-                   </div>   
-                    
-                </div>
-
-                 <div className='skillitem'>
-                    <div className='skill-info'>
-                        <p className='text-white'><img src={mangodb} width={20} height={20}/> Mongodb</p>
-                        
-                    </div>
-                    <div className="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                   <div className="progress-bar mongodb">40%</div>
-                   </div>   
-                    
+            </div>
+            <div className='bar'>
+                <div className='text-white info'>
+                <img src={mongodb} height={18} weight={18}/> Mongodb</div> 
+                <div className='progress-line mdb'>
+                    <span></span>
                 </div>
             </div>
         </div>
-        </Container>
+        </div>
+        </Col>
+        <Col md={6}>
+        <div className='ps'>
+           <h3 className='text-white heading1'>Professional Skills</h3>
+           <div className='radial-bars'>
+           <div className='radial-bar'>
+            <svg x={0} y={0} viewBox='0 0 200 200'>
+                <circle className='progress-bar' cx={100} cy={100} r={80}></circle>
+                <circle className='path path-1' cx={100} cy={100} r={80}></circle>
+            </svg>
+            <div className='percentage text-white'>70%</div>
+            <div className='text-white text'>Creativity</div>
+           </div>
+             <div className='radial-bar'>
+            <svg x={0} y={0} viewBox='0 0 200 200'>
+                <circle className='progress-bar' cx={100} cy={100} r={80}></circle>
+                <circle className='path path-2' cx={100} cy={100} r={80}></circle>
+            </svg>
+            <div className='percentage text-white'>60%</div>
+            <div className='text-white text'>Communication</div>
+           </div>
+             <div className='radial-bar'>
+            <svg x={0} y={0} viewBox='0 0 200 200'>
+                <circle className='progress-bar' cx={100} cy={100} r={80}></circle>
+                <circle className='path path-3' cx={100} cy={100} r={80}></circle>
+            </svg>
+            <div className='percentage text-white'>50%</div>
+            <div className='text-white text'>Problem Solving</div>
+           </div>
+           </div>
+           
+        </div>
+        </Col>
+        </Row>
+    </Container>
         </>
     );
 }
