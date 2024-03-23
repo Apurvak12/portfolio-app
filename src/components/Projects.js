@@ -4,7 +4,7 @@ const Project=()=>{
     return(
         <>
         <Container className="container5">
-            <h1 className="text-white title">Projects</h1>
+            <h2 className="text-white title">Projects</h2>
         <div >
   <div className="row">
     <div className="col-sm">

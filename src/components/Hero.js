@@ -10,7 +10,7 @@ const Hero=()=>{
                 <p>I am a full-stack developer passionate about crafting dynamic and user-centric web applications. Welcome to my portfolio, where I showcase my journey, skills, and projects.</p>
                 <Button >
                 <a href="mailto:kulkarniapurva132@gmail.com" className="text-white btn">Contact me</a>
-                </Button>{' '}
+                </Button>
                  </div>
                 <img src={hero}  className="hero1 "/>
            

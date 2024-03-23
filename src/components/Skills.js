@@ -9,7 +9,7 @@ const Skills=()=>{
     return(
         <>
         <Container className='containers' id='skills'>
-        <h2 className='text-white'>Skills</h2>
+        <h2 className='text-white title'>Skills</h2>
         <Row>
             <Col md={6}>
         <div className='ts'>

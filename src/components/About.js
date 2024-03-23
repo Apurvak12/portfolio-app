@@ -7,7 +7,7 @@ const About=()=>{
         <>
         
             <Container className="container2">
-              <h2 className="text-white">About</h2>
+              <h2 className="text-white title">About</h2>
               <div className="content1">
             <img src={laptop} className="aboutImg" />
             <ul className="aboutItems">

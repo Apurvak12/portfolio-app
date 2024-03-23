@@ -1,16 +1,17 @@
 import './App.css';
-import NavBar from './components/NavBar';
+import Header from './components/NavBar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Footer from './components/Contact';
 import Skills from './components/Skills';
 import Project from './components/Projects';
 
+
 function App() {
   return (
     <>
     <div className='App'>
-      <NavBar/>
+      <Header/>
       <br/>
       <Hero/>
       <br/>
@@ -19,10 +20,12 @@ function App() {
       <br/>
       <Skills/>
       <br/>
+      <br/>
       <Project/>
      
       <Footer/>
     </div>
+    
     </>
   );
 }
