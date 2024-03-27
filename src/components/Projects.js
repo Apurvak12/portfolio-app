@@ -12,12 +12,12 @@ const Project=()=>{
       <Card.Img variant="top" src={project}/>
       <Card.Body>
         <Card.Title className="text-white">Project 1</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        <Card.Text className="text-white">
+          Travel Tourist is a cool travel website that's made for everyone who loves adventure.
+          Html,css and bootstrap is use to made this website.
         </Card.Text>
-       <Button variant="dark">Demo</Button>{ ' '}
-         < Button variant="dark">Source</Button>
+       <Button variant="primary">Demo</Button>{ ' '}
+         < Button variant="primary">Source</Button>
       </Card.Body>
     </Card>
     </div>
@@ -26,9 +26,9 @@ const Project=()=>{
       <Card.Img variant="top" src={project} />
       <Card.Body>
         <Card.Title className="text-white">Project 2</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        <Card.Text className="text-white">
+          Company is a food delivery website that's made for everyone who loves food.
+          Html,css and bootstrap is use to made this website.
         </Card.Text>
         <Button variant="primary">Demo</Button> {" "}
        < Button variant="primary">Source</Button>
@@ -40,9 +40,8 @@ const Project=()=>{
       <Card.Img variant="top" src={project} />
       <Card.Body>
         <Card.Title className="text-white">Project 3</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        <Card.Text className="text-white">
+          My Personal Portfolio you'll find a collection of my work that showcases my skills, creativity,and passion. React.js is use to made this website.
         </Card.Text>
         <Button variant="primary">Demo</Button>{ ' '}
          < Button variant="primary">Source</Button>

@@ -2,10 +2,11 @@ import { Container} from "react-bootstrap";
 import laptop from '../images/2022_ani_cartoon_28-removebg-preview.png';
 import cursor from '../images/cursor_11167523.png';
 import sericon from '../images/money-bills_7384163.png'
+
 const About=()=>{
+  
     return(
         <>
-        
             <Container className="container2">
               <h2 className="text-white title">About</h2>
               <div className="content1">
