@@ -8,7 +8,7 @@ import mongodb from '../images/mongodb.png';
 const Skills=()=>{
     return(
         <>
-        <Container className='containers' id='skills'>
+        <Container className='containers' id='Skills'>
         <h2 className='text-white title'>Skills</h2>
         <Row>
             <Col md={6}>

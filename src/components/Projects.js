@@ -3,7 +3,7 @@ import project from '../images/project.png';
 const Project=()=>{
     return(
         <>
-        <Container className="container5">
+        <Container className="container5" id="Project">
             <h2 className="text-white title">Projects</h2>
         <div >
   <div className="row">

@@ -5,7 +5,7 @@ import github from '../images/githubIcon.png';
 const Footer=()=>{
     return(
         
-        <footer className='container3'>
+        <footer className='container3' id='Contact'>
             {/* <div className='footer'> */}
              <div>
             <h1 className='text-white'>Contact Me</h1>

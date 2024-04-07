@@ -1,4 +1,16 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif; /* Use a common font family */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
 .container1{
     position: relative;
   display: flex;
@@ -26,6 +38,7 @@
     margin-right: 5%;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
   }
   .hero1 {
     width: 100%;
@@ -41,7 +54,10 @@
   }
   
 }
-
+.nav link{
+  font-size: 20px;
+  font-weight: 100;
+}
 .container2{
    position: relative;
   background-color: rgba(12, 12, 12, 0.6);
@@ -88,6 +104,7 @@
     padding: 30px;
     margin-top: 50px;
     border-radius: 0;
+    overflow-x: hidden;
   }
   .content1 {
     flex-direction: column;
@@ -168,6 +185,7 @@ color: bisque;
   flex-wrap: wrap;
   justify-content: center;
  margin-bottom: 10px;
+ overflow-x: hidden;
   
 }
 
@@ -194,6 +212,7 @@ color: bisque;
   .container5 {
     margin-left: 5%; /* Adjust margin for smaller screens */
     margin-right: 5%;
+    overflow-x: hidden;
   }
   .title{
     text-align: center;
@@ -430,6 +449,7 @@ margin-top: 40px 0;
   .containers {
     flex-direction: column;
     padding: 0;
+    overflow-x: hidden;
   }
   .ts,
   .ps {
