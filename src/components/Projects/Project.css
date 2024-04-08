@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
  overflow-x: hidden;
- padding: 76px;
+  padding: 70px;
 }
 
 .title {
@@ -20,12 +20,12 @@
   border-radius: 20px;
   background-color: rgba(12, 12, 12, 0.6);
   box-shadow: 0 16px 14px 0 #04152d;
-  padding: 15px ;
+  padding: 10px ;
   /* Ensure card takes full width */
   max-width: 100%; /* Limit card width */
   margin-top: 30px;
   box-sizing: border-box; /* Include padding in width calculation */
-  gap: 30px;
+  gap: 10px;
 }
 .content2{
   font-size: medium;

@@ -8,6 +8,7 @@
    justify-content: space-around;
     padding: 30px ;
     flex-direction: row;
+   
 }
 .footerItem{
   display: flex;

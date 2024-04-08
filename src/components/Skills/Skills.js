@@ -9,6 +9,7 @@ import mongodb from '../../images/mongodb.png';
 const Skills=()=>{
     return(
         <>
+        <Container>
         <section className='containers' id='Skills'>
         <h2 className='text-white title'>Skills</h2>
         <Row>
@@ -95,6 +96,7 @@ const Skills=()=>{
         </Col>
         </Row>
     </section>
+    </Container>
         </>
     );
 }

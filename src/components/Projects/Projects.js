@@ -10,7 +10,7 @@ const Project=()=>{
         <div >
   <div className="row">
     <div className="col-sm">
-      <Card style={{ width: '20rem' }}>
+      <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={project}/>
       <Card.Body>
         <Card.Title className="text-white">Project 1</Card.Title>
@@ -24,7 +24,7 @@ const Project=()=>{
     </Card>
     </div>
     <div className="col-sm">
-      <Card style={{ width: '20rem' }}>
+      <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={project} />
       <Card.Body>
         <Card.Title className="text-white">Project 2</Card.Title>
@@ -38,7 +38,7 @@ const Project=()=>{
     </Card>
     </div>
     <div className="col-sm">
-      <Card style={{ width: '20rem' }}>
+      <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={project} />
       <Card.Body>
         <Card.Title className="text-white">Project 3</Card.Title>
