@@ -33,19 +33,28 @@ Contact Information: Contact details provided for visitors to reach out to you f
 The project structure follows the standard React application layout:
 
 public/: Contains the public assets and the index.html file as the entry point.
+
 src/: Contains the source code for the React components, styles, and assets.
+
 components/: React components for different sections of the portfolio.
+
 styles/: CSS or SCSS files for styling the components.
+
 assets/: Images, icons, or other static assets used in the app.
+
 App.js: Main component that renders the entire application.
+
 index.js: Entry point of the application where React is initialized and the App component is rendered.
+
 package.json: Configuration file that contains metadata about the project and manages project dependencies.
 
 # Contact Information
 If you have any questions, feedback, or suggestions regarding this Portfolio React App, feel free to reach out to me:
 
 Name: Apurva Kulkarni
+
 Email: kulkarniapurva132@gmail.com
+
 Thank you for visiting my Portfolio React App repository! I hope you find it informative and inspiring.
 
 
