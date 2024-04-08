@@ -1,17 +1,20 @@
+
 import {Container} from 'react-bootstrap';
-import email from '../images/emailIcon.png';
-import linkedIn from '../images/linkedinIcon.png';
-import github from '../images/githubIcon.png';
+
+import email from '../../images/emailIcon.png';
+import linkedIn from '../../images/linkedinIcon.png';
+import github from '../../images/githubIcon.png';
+import './Contact.css';
 const Footer=()=>{
     return(
-        
+     
         <footer className='container3' id='Contact'>
             {/* <div className='footer'> */}
-             <div>
+             <div >
             <h1 className='text-white'>Contact Me</h1>
             <p className='text-white'>Let's work together</p>
               </div>
-        <div>
+        <div >
             <ul className='footerItem'>
                 <li className='footerItems'>
                     <img src={email} height={30}/>

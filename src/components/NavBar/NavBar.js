@@ -1,15 +1,15 @@
 
 import React from 'react';
 import {Navbar,Nav,Container} from 'react-bootstrap';
-  
+  import './NavBar.css';
 
 const Header = () => {
   return (
     <>
     <Container>
-      <Navbar collapseOnSelect expand="lg" className="bg-body-transparent">
+      <Navbar collapseOnSelect expand="lg" className="bg-body-transparent ">
         
-          <Navbar.Brand className="text-white" >
+          <Navbar.Brand className="text-white brandn" >
             Portfolio
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav">

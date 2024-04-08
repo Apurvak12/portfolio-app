@@ -1,0 +1,43 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.container5 {
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ overflow-x: hidden;
+ padding: 76px;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  margin-top: 20px;
+  width: 100%; 
+}
+
+.card {
+  border-radius: 20px;
+  background-color: rgba(12, 12, 12, 0.6);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 15px ;
+  /* Ensure card takes full width */
+  max-width: 100%; /* Limit card width */
+  margin-top: 30px;
+  box-sizing: border-box; /* Include padding in width calculation */
+  gap: 30px;
+}
+.content2{
+  font-size: medium;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 830px) {
+  .container5 {
+    margin-left: 5%; /* Adjust margin for smaller screens */
+    margin-right: 5%;
+    overflow-x: hidden;
+  }
+  .title{
+    text-align: center;
+  }
+}

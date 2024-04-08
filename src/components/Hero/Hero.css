@@ -1,0 +1,48 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.container1{
+     position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 49px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.hero1{
+    width: 50%;
+    height: 50%;
+    z-index:1;
+}
+.btn {
+  text-decoration: none;
+ 
+}
+.content p{
+  font-size: 20px;
+   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 1;
+}
+
+@media screen and (max-width: 830px) {
+  .container1 {
+    flex-direction: column-reverse;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  .hero1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px; 
+  }
+  .content {
+    text-align: center;
+  }
+  
+  
+}

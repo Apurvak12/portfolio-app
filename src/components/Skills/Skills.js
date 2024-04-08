@@ -1,14 +1,15 @@
+import './Skills.css';
 import {Container,Row,Col} from 'react-bootstrap';
-import html from '../images/html-5_5968267.png';
-import css from '../images/css-3_5968242.png';
-import javascript from '../images/js_5968292.png';
-import java from '../images/java_226777.png';
-import nodejs from '../images/node.png';
-import mongodb from '../images/mongodb.png';
+import html from '../../images/html-5_5968267.png';
+import css from '../../images/css-3_5968242.png';
+import javascript from '../../images/js_5968292.png';
+import java from '../../images/java_226777.png';
+import nodejs from '../../images/node.png';
+import mongodb from '../../images/mongodb.png';
 const Skills=()=>{
     return(
         <>
-        <Container className='containers' id='Skills'>
+        <section className='containers' id='Skills'>
         <h2 className='text-white title'>Skills</h2>
         <Row>
             <Col md={6}>
@@ -19,7 +20,7 @@ const Skills=()=>{
                 <div className='text-white info'>
                 <img src={html} height={18} weight={18}/> HTML</div>
                 <div className='progress-line html'>
-                    <span></span>
+                    <span data-content="90%">90</span>
                 </div>
             </div>
             <div className='bar'>
@@ -93,7 +94,7 @@ const Skills=()=>{
         </div>
         </Col>
         </Row>
-    </Container>
+    </section>
         </>
     );
 }
