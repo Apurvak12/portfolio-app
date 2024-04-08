@@ -249,8 +249,12 @@ margin-top: 40px 0;
   }
   .radial-bar .percentage,
   .radial-bar .text {
-    font-size: 14px;
+    font-size: 15px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
   }
+  
   .progress-line span::after,
   .progress-line span::before {
     top: -20px;

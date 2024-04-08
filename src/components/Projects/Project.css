@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
  overflow-x: hidden;
-   margin-top: 170px;
+   margin-top: 150px;
 }
 
 .title {
@@ -33,9 +33,10 @@
 }
 @media screen and (max-width: 830px) {
   .container5 {
-    margin-left: 5%; /* Adjust margin for smaller screens */
+    margin-left: 10%; /* Adjust margin for smaller screens */
     margin-right: 5%;
     overflow-x: hidden;
+    
   }
   .title{
     text-align: center;
