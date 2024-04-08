@@ -1,11 +1,11 @@
-Portfolio React App 
+## Portfolio React App 
 Welcome to the repository for my Portfolio React App!
 This React application serves as a showcase of my projects, skills, and experiences. Below, you'll find information on how to set up and run the app, as well as details about its structure and features.
 
-Setup Instructions
+# Setup Instructions
 To set up and run the Portfolio React App locally on your machine, follow these steps:
 
-Clone the Repository:
+# Clone the Repository:
 
 git clone https://github.com/your-username/portfolio-react-app.git
 Navigate to the Directory:
