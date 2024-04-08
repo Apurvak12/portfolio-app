@@ -21,7 +21,7 @@ const Skills=()=>{
                 <div className='text-white info'>
                 <img src={html} height={18} weight={18}/> HTML</div>
                 <div className='progress-line html'>
-                    <span data-content="90%">90</span>
+                    <span></span>
                 </div>
             </div>
             <div className='bar'>
