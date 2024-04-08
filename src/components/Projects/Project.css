@@ -34,9 +34,12 @@
 @media screen and (max-width: 830px) {
   .container5 {
     margin-left: 10%; /* Adjust margin for smaller screens */
-    margin-right: 5%;
+    margin-right: 10%;
     overflow-x: hidden;
     
+  }
+  .card{
+    justify-content: center;
   }
   .title{
     text-align: center;
