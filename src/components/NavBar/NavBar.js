@@ -1,18 +1,15 @@
-
-import React from 'react';
 import {Navbar,Nav,Container} from 'react-bootstrap';
-  import './NavBar.css';
+import './NavBar.css';
+
 
 const Header = () => {
   return (
-    <>
     <Container>
-      <Navbar collapseOnSelect expand="lg" className="bg-body-transparent ">
-        
+      <Navbar collapseOnSelect expand="lg" className='bg-body-transparent'>
           <Navbar.Brand className="text-white brandn" >
             Portfolio
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 30 30"
@@ -30,7 +27,7 @@ const Header = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
-              <nav id="navbar-example2" className="navbar bg-body-transparent px-3 mb-3">
+              <nav id="navbar-example2" className="navbar bg-body-transparent ">
       <ul className="nav nav-pills">
         <li className="nav-item">
           <a className="nav-link text-white" href="#About" >About</a>
@@ -50,7 +47,7 @@ const Header = () => {
           </Navbar.Collapse>
       </Navbar>
         </Container> 
-    </>
+
   );
 };
 

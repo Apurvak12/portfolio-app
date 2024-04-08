@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
  overflow-x: hidden;
-   margin-top: 150px;
+  padding: 70px;
 }
 
 .title {
@@ -14,17 +14,18 @@
   letter-spacing: 1.75px;
   margin-top: 20px;
   width: 100%; 
+  
 }
 
 .card {
   border-radius: 20px;
   background-color: rgba(12, 12, 12, 0.6);
   box-shadow: 0 16px 14px 0 #04152d;
-  padding: 10px ;
-  /* Ensure card takes full width */
-  max-width: 100%; /* Limit card width */
+  padding:15px ;
+  display: flex;
+ max-width: 345px; /* Limit card width */
   margin-top: 30px;
-  box-sizing: border-box; /* Include padding in width calculation */
+  
   gap: 10px;
 }
 .content2{
@@ -33,10 +34,7 @@
 }
 @media screen and (max-width: 830px) {
   .container5 {
-    margin-left: 5%; /* Adjust margin for smaller screens */
-    margin-right: 5%;
-    overflow-x: hidden;
-    
+   padding: 48px;
   }
   .card{
     justify-content: center;

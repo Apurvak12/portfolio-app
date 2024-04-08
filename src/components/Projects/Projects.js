@@ -43,7 +43,7 @@ const Project=()=>{
       <Card.Body>
         <Card.Title className="text-white">Project 3</Card.Title>
         <Card.Text className="text-white content2">
-          My Personal Portfolio you'll find a collection of my work that showca-ses my skills,creativity and passion. React.js is use to made this website.
+          My Personal Portfolio you'll find a collection of my work that showca-ses my skills ,creativity and passion. React.js is use to made this website.
         </Card.Text>
         <Button variant="primary">Demo</Button>{ ' '}
          < Button variant="primary">Source</Button>
