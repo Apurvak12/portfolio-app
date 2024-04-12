@@ -6,7 +6,7 @@ This React application serves as a showcase of my projects, skills, and experien
 To set up and run the Portfolio React App locally on your machine, follow these steps:
 
 ## Clone the Repository:
-git clone https://github.com/Apurvak12/portfolio-react-app.git
+git clone https://github.com/Apurvak12/portfolio-app.git
 
 ## Navigate to the Directory:
 cd portfolio-react-app
